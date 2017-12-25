@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="format-detection" content="telephone=no">
+	<title>William Liu</title>
+<!-- add fancybox.css -->
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/all.css" />
+	<link rel="stylesheet" href="css/screen.css" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<div id="wrapper" class="portfolio">
+		<div class="wrapper-holder">
+			<header id="header">
+				<a class="menu_trigger" href="#">menu</a>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Rez_U_May.pdf" target="blank">Résumé</a></li>
+							<li><a class="active" href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+			</header>
+		</div>
+		<div class="wrapper-holder grey">
+			<section id="main">
+				<h2>Projects and Publications</h2>
+				<ul id="filters" class="sub_nav">
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".pub">Publications</li>
+					<li data-filter=".engr">Engineering</li>
+					<li data-filter=".des">Design</li>
+					<li data-filter=".psych">Psychology</li>
+					<li data-filter=".photo">Photography</li>
+					<li data-filter=".theatre">Theatre</li>
+				</ul>
+				<ul id="container" class="item-list">
+				<!--InvenTeX-->
+					<li class="item engr des">
+						<div class="image">
+							<img src="images/portfolio/inventex/inventex.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_12">
+									<div class="item-content">
+										<h4>InvenTeX</h4>
+										<p>Internet-Enabled Mechanical Sorter and Inventory Maintenance Machine</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--DRAM Energy-->
+					<li class="item engr pub">
+						<div class="image">
+							<img src="images/portfolio/dram_energy/dram_energy.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_4">
+									<div class="item-content">
+										<h4>DRAM Energy</h4>
+										<p>Experimental Characterization and Analysis of DRAM Energy Consumption and Variation</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--SnWebsite-->
+					<li class="item des engr">
+						<div class="image">
+							<img src="images/portfolio/snwebsite/code.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_9">
+									<div class="item-content">
+										<h4>Scotch'n'Soda Website</h4>
+										<p>Website for Scotch'n'Soda Theatre of Carnegie Mellon</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--Flanker Exergame-->
+					<li class="item engr psych des">
+						<div class="image">
+							<img src="images/portfolio/flanker_task/story_board.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_6">
+									<div class="item-content">
+										<h4>Flanker Exergame</h4>
+										<p>Combining Gaming and Exercise to Strengthen Preschool Cognition</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--Heathers-->
+					<li class="item theatre">
+						<div class="image">
+							<img src="images/portfolio/heathers/heathers_prod_staff.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_10">
+									<div class="item-content">
+										<h4>Heathers: The Musical</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--ResistAR-->
+					<li class="item engr des">
+						<div class="image">
+							<img src="images/portfolio/resistar/live_demo.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_3">
+									<div class="item-content">
+										<h4>ResistAR</h4>
+										<p>Augmented Reality Circuit Visualizer</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--iPhone Photography-->
+					<li class="item photo">
+						<div class="image">
+							<img src="images/portfolio/iphone_photos/tom_walking.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_5">
+									<div class="item-content">
+										<h4>iPhone Photography</h4>
+										<p>Photos On The Fly</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--R&G-->
+					<li class="item theatre">
+						<div class="image">
+							<img src="images/portfolio/r&g/funny_blocking.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_11">
+									<div class="item-content">
+										<h4>Rosencrantz and Guildenstern Are Dead</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--Yearbook-->
+					<li class="item des pub">
+						<div class="image">
+							<img src="images/portfolio/yearbook/senior_spread.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_7">
+									<div class="item-content">
+										<h4>Yearbook</h4>
+										<p>West High School 2015-2016 Yearbook</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--Chief High-->
+					<li class="item">
+						<div class="image">
+							<img src="images/portfolio/chief_high/chief_high.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_8">
+									<div class="item-content">
+										<h4>Chief High</h4>
+										<p>Documentary on the Recreational Use of Marijuana at the High School Level</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+					<!--MAV-->
+					<li class="item engr pub">
+						<div class="image">
+							<img src="images/portfolio/mav/prelim_agse_sketch.jpg"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_2">
+									<div class="item-content">
+										<h4>MAV and AGSE</h4>
+										<p>Mars Ascent Vehicle with its Autonomous Ground Support Equipment</p>
+									</div>
+									</a>
+							</div>
+						</div>
+					</li>
+					<!--EOI-->
+					<li class="item engr pub" >
+						<div class="image ">
+							<img src="images/portfolio/eoi/probe.png"  alt="" />
+							<div class="hover">
+								<a class="fancybox" rel="gallery1" href="#portfolio_1">
+									<div class="item-content">
+										<h4>EOI</h4>
+										<p>Earth Observing Instrument</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<div class="footer-content">
+				<ul class="social">
+					<li class="linkedin"><a href="https://linkedin.com/in/willixl" target="blank">LinkedIn</a></li>
+					<li class="medium"><a href="https://www.medium.com/@willixl" target="blank">Medium</a></li>
+					<li class="instagram"><a href="https://www.instagram.com/willixl/" target="blank">Instagram</a></li>
+					<li class="scholar"><a href="https://scholar.google.com/citations?user=gJ2y8cEAAAAJ&hl=en" target="blank">Google Scholar</a></li>
+					<li class="github"><a href="https://github.com/willixl" target="blank">Github</a></li>
+				</ul>
+				<p class="copy">Copyright 2017 William Liu. All rights reserved.</p>
+			</div>
+		</footer>	
+	</div>
+	<div style="display:none;">
+		<div id="portfolio_1" class="popup_portfolio">
+			<img src="images/portfolio/eoi/eoi_portfolio.png"  alt="" />
+			<h3>Earth Observing Instrument</h3>
+			<time datetime="2015-04-29">03/29/2015</time>
+			<p>The objective of our project is to design, construct, and operate an EOI (Earth Observing Instrument) that will capture aerial images and use a classification algorithm to determine the land features on captured images. Unlike Earth observation satellites, orbiting above us right now, covering large areas, our EOI will be used for local observations, trading lower coverage for quicker, higher resolution images. Our classification program will be trained by manually classifying ground elements and feeding that into our program in order to teach it.</p>
+			<p>Extensive documentation and scheduling were done throughout the project. We wrote documentation at the stages of: Preliminary Design Review, Critical Design Review, Flight Readiness Review, and also a Post Flight Assessment. These documents can be found on this <a href="http://www.eoi.westrocketry.com" target="blank">website</a> under the tab: Documents.</p>
+			<p>A video of the flight can be found <a href="https://youtu.be/MW0-WuAZr0Y" target="blank">here</a>.</p>
+		</div>
+		<div id="portfolio_2" class="popup_portfolio">
+			<img src="images/portfolio/mav/mav_portfolio.jpg"  alt="" />
+			<h3>Mars Ascent Vehicle and Autonomous Ground Support Equipment</h3>
+			<time datetime="2016-04-29">04/29/2016</time>
+			<p>We developed, in conjunction to our Mars Ascent Vehicle, the Autonomous Ground Support Equipment, AGSE for short, to retrieve a payload, transfer the payload into our vehicle, secure the payload enclosure door, erect the launch rail, and wait for motor ignition. The AGSE will be constructed out of an 8020 frame and actuated using stepper motors and linear actuators, all driven by an Arduino Mega 2560. More details about the AGSE can be found in our Documentation.</p>
+			<p>The vehicle will secure the payload that the AGSE will retrieve and take that payload to one mile above ground level (AGL), but not exceed that apogee. The vehicle will be constructed out of fiberglass and metal components with extra epoxy and strength at load-bearing joints. Currently, our rocket will be flying on a J-Class motor. More information about our vehicle can be found in our Documentation.</p>
+			<p>Extensive documentation and scheduling were done throughout the project. We wrote documentation at the stages of: Preliminary Design Review, Critical Design Review, Flight Readiness Review, and also a Post Flight Assessment. Every single component was also verified against the specifications provided by NASA and filled in to two verification matrices. These documents can be found on this <a href="http://www.martians.westrocketry.com" target="blank">website</a> under the tab: Documents.</p>
+			<p>A video of the AGSE operation can be found <a href="https://youtu.be/n8SHjWcaxVM" target="blank">here</a>.</p>
+		</div>
+		<div id="portfolio_3" class="popup_portfolio">
+			<img src="images/portfolio/resistar/resistar_portfolio.png"  alt="" />
+			<h3>ResistAR</h3>
+			<time datetime="2017-04-01">04/01/2017</time>
+			<p>ResistAR is an Augmented Reality Circuit Visualizer and Solver. A user can place down circuit elements in parallel and series configurations and ResistAR will solve the current through and voltage across each element of the circuit. It gives the user an easy way to see (sharp) the circuit.</p>
+			<p>Check out the full project on <a href="https://devpost.com/software/resistar" target="blank">Devpost</a>.</p>
+		</div>
+		<div id="portfolio_4" class="popup_portfolio">
+			<img src="images/portfolio/dram_energy/dram_energy_portfolio.png"  alt="" />
+			<h3>Experimental Characterization and Analysis of DRAM Energy Consumption and Variation</h3>
+			<time datetime="2017-08-11">08/11/2017</time>
+			<p>We use insights gained from our experimental characterization to perform two studies on the potential of mechanisms that exploit the data dependence and structural variation. One of our studies on energy-aware data encoding shows that we can potentially reduce DRAM energy consumption by 12.2%, averaged across a wide range of workloads. Ultimately, we hope that the findings in this paper will inspire new research directions in energy-aware DRAM design.</p>
+			<p>Link will be available once the work is published</p>
+		</div>
+		<div id="portfolio_5" class="popup_portfolio">
+			<img src="images/portfolio/iphone_photos/iphone_photos_portfolio.png"  alt="" />
+			<h3>iPhone Photography</h3>
+			<time datetime="2017-06-09">06/09/2017</time>
+			<p>A collection of photos with no real theme or purpose other than to quickly capture the moment on the phone that I am using at the time. I love how the iPhone camera, while not containing crazy amounts of mega pixels, still focuses well on the color science of its processors and the quality of its lenses to be able to deliver a great photography experience in such a small package. I didn't even know that the macro features of the lens existed until I tried sneaking up on a bee about a month ago.</p>
+			<p>Flickr album found <a href="https://www.flickr.com/photos/willixl/albums/72157684981836594" target="blank">here</a>.</p>
+		</div>
+		<div id="portfolio_6" class="popup_portfolio">
+			<img src="images/portfolio/flanker_task/flanker_task_portfolio.png"  alt="" />
+			<h3>Flanker Exergame</h3>
+			<time datetime="2017-05-21">05/21/2017</time>
+			<p>The goal of this research project is to observe the combined effects that exercise and cognitive tasks has on the imporovement of executive function in pre-kindergarten children. While there is a lot of prior literature on the effects of exercise and cognitive tasks on pre-kindergarten children (both noting positive effects, though cognitive tasks not as much), this project aims to create the biggest improvement possible. The intervention also aims to rule out whether or not pre-kindergarten children are affected by cognitive tasks at all.</p>
+			<p>A link to the findings will be available once published.</p>
+		</div>
+		<div id="portfolio_7" class="popup_portfolio">
+			<img src="images/portfolio/yearbook/yearbook_portfolio.png"  alt="" />
+			<h3>West High School 2015-2016 Yearbook</h3>
+			<time datetime="2016-04-25">04/25/2016</time>
+			<p>I was on the Yearbook team during Senior Year of high school. I photographed, filmed, and designed spreads for this publication. We used AR technology to embed videos into the yearbook using the photos as activation cards. The yearbook was created with a team of 25 students and one teacer advisor. Each yearbook was also sold at the end of the school year by the team members to break even the printing costs.</p>
+		</div>
+		<div id="portfolio_8" class="popup_portfolio">
+			<img src="images/portfolio/chief_high/chief_high_portfolio.png"  alt="" />
+			<h3>CHIEF HIGH</h3>
+			<time datetime="2016-04-20">04/20/2016</time>
+			<p>Chief High is a documentary about the recreational use of marijuana at the high school level. It touches on the dangers of marijuana and the reasons why people still use the drug anyways. Chief High also touches on the abuse of substances, marijuana and beyond. Interviewing more than 50 high school students, I learned about the allure of the drug and also all of its problems, health-related or not.</p>
+			<p>Chief High was screened at private venues for high school students and received acclaim for its transparency of the topic.</p>
+		</div>
+		<div id="portfolio_9" class="popup_portfolio">
+			<img src="images/portfolio/snwebsite/snwebsite_portfolio.png"  alt="" />
+			<h3>Scotch'n'Soda Theatre Website</h3>
+			<time datetime="2016-06-22">06/22/2017</time>
+			<p>I was elected as Scotch'n'Soda Theatre's webmaster at the end of my Freshman year. Over the summer, I recycled the content of the old website into a new static site for easier hosting and also updated all of the CSS to make it cleaner.</p>
+			<p>I'm also working on creating new modules for our in-house theatre web app that schedules rehearsals, maintains production notes, and sends notifications to everyone in the organization.</p>
+		</div>
+		<div id="portfolio_10" class="popup_portfolio">
+			<img src="images/portfolio/heathers/heathers_portfolio.png"  alt="" />
+			<h3>Heathers: The Musical</h3>
+			<time datetime="2016-04-22">04/22/2017</time>
+			<p>I stage managed Heathers: The Musical with a co-stage manager and an assistant. We were the point of contact between the production staff, the artistic directors, the technical directors, and the actors. In total we worked with about 80 people within the organization in order to keep the logistics of the show running along. We also took down blocking and staging notes at every rehearsal for record keeping. Stage managers also call the cues for actor transitions, lights, and sound.</p>
+			<p>Heathers: The Musical is based on the classic 1989 film, Westerberg High is ruled by a shoulder-padded, scrunchie-wearing junta: Heather, Heather, and Heather, the hottest and cruelest girls in all of Ohio. But misfit Veronica Sawyer rejects their evil regime for a new boyfriend, the dark and sexy stranger J.D., who plans to put the Heathers in their place - six feet under. (Synopsis from Samuel French)</p>
+		</div>
+		<div id="portfolio_11" class="popup_portfolio">
+			<img src="images/portfolio/r&g/r&g_portfolio.png"  alt="" />
+			<h3>Rosencrantz and Guildenstern Are Dead</h3>
+			<time datetime="2016-02-21">02/21/2017</time>
+			<p>I stage managed Heathers: The Musical with a co-stage manager and an assistant. We were the point of contact between the production staff, the artistic directors, the technical directors, and the actors. In total we worked with about 50 people within the organization in order to keep the logistics of the show running along. We also took down blocking and staging notes at every rehearsal for record keeping. Stage managers also call the cues for actor transitions, lights, and sound.</p>
+			<p>The play concerns the misadventures and musings of Rosencrantz and Guildenstern, two minor characters from William Shakespeare's Hamlet who are childhood friends of the prince, focusing on their actions with the events of Hamlet as background. Rosencrantz and Guildenstern Are Dead is structured as the inverse of Hamlet; the title characters are the leads, not supporting players, and Hamlet himself has only a small part. (From Wikipedia)</p>
+		</div>
+		<div id="portfolio_12" class="popup_portfolio">
+			<img src="images/portfolio/inventex/inventex_portfolio.png"  alt="" />
+			<h3>InvenTeX</h3>
+			<time datetime="2017-09-10">09/10/2017</time>
+			<p>Have you ever finished up ECE lab or a small project like a PennApps hardware project and found that there were all of these screws, nuts, and resistors lying around everywhere? Or maybe you're just a hardware enthusiast but hate keeping track of all of your stuff (we like to do the old-fashioned way: the "hardware pile.") With InvenTeX, there is finally an easy solution to inventory maintenance. Gone are the days of hoping you have quarter inch threads and settling for glue, or even having to remember the resistor color code. InvenTeX does all for your inventory, so you can focus your all on your hardware.</p>
+			<p>InvenTeX identifies objects you want to keep in your inventory and helps you track them in groups so you don't have to. The workflow of InvenTeX is simple. When you first launch the app, you can choose to see what is in your inventory (at this point, nothing) and to insert something into the InvenTeX.</p>
+			<p>Check out the full project on our <a href="https://devpost.com/software/toolhub" target="blank">Devpost</a></p>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/cells-by-row.js"></script>
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
