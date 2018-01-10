@@ -81,7 +81,7 @@ var TextScramble = function () {
 // Example
 // ——————————————————————————————————————————————————
 
-var phrases = ['Developer', 'Designer', 'Researcher', 'Student'];
+var phrases = ['Developer', 'Designer', 'Researcher', 'Student', 'Pokemon Trainer', 'Theatre Nerd'];
 
 var el = document.querySelector('.text');
 var fx = new TextScramble(el);
